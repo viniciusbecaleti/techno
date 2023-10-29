@@ -107,7 +107,7 @@ const vm = new Vue({
     produto() {
       if (!this.produto) {
         document.title = "Techno"
-        history.pushState(null, null, "/")
+        history.pushState(null, null, "./")
         return
       }
       
